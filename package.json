@@ -1,26 +1,19 @@
 {
-  "name": "nouveau-dossier-(7)",
+  "name": "cycode-enterprise",
   "version": "1.0.0",
-  "description": "Modern, high-performance corporate website for Cycode, an enterprise-grade software development company.",
+  "description": "Modern, high-performance corporate website for Cycode.",
   "main": "index.js",
   "scripts": {
+    "build": "copy index.html www & npx cap sync",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tayeb736/project13.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/tayeb736/project13/issues"
-  },
-  "homepage": "https://github.com/tayeb736/project13#readme",
   "dependencies": {
-    "@capacitor/android": "^8.3.3",
-    "@capacitor/cli": "^8.3.3",
-    "@capacitor/core": "^8.3.3"
+    "@capacitor/android": "^5.0.0",
+    "@capacitor/cli": "^5.0.0",
+    "@capacitor/core": "^5.0.0"
   }
 }
